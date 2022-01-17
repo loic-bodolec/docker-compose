@@ -1,4 +1,4 @@
-# Docker - docker-compose
+# Docker - docker-compose training
 
 ***Start App :***
 
