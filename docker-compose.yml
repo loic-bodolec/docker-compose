@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: "3"
+services:
+  app:
+    image: loicbdev/hello-app
+  server:
+    image: express-docker
+    ports:
+      - 5050:5000
+  mongodb:
+    image: mongo
